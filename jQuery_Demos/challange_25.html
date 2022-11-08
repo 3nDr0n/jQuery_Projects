@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> <!--referencing jquery file from google library collection-->
+    </head>
+        <body>
+            <h2>Good Day to you!</h2>
+            <p>Click here!</p>
+             <script>
+                $("p").click(function() {  //creates jquery function that displays alert message when paragraph is clicked 
+                    window.alert("Thank you for clicking!");
+                });
+                $( "h2" ).hide(); 
+                $( "h2" ).show( "slow" ); //effect on h2 element
+             </script>
+        </body>
+</html>        
